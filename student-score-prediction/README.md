@@ -104,12 +104,13 @@ Prediction (Math Score)
 
 ## 🚀 Run the Project
 
-### Install dependencies
-
+### 📦 Install Dependencies
 pip install -r requirements.txt
-Run Streamlit app
+
+### ▶️ Run Streamlit App
 streamlit run app.py
-🧪 Sample Prediction
+
+## 🧪 Sample Prediction
 input_data = [[
     "female",
     "group B",
@@ -123,22 +124,20 @@ input_data = [[
 # Predicted Output
 Math Score → 78.5
 
-##🔍 Key Insights
-Reading score strongly affects math performance
-Writing score is highly correlated with math score
-Test preparation improves results
-Linear Regression is a strong baseline model
+## 🔍 Key Insights
+- Reading score strongly affects math performance  
+- Writing score is highly correlated with math score  
+- Test preparation improves results  
+- Linear Regression is a strong baseline model  
 
+## 🛠️ Tech Stack
+- Python 🐍
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
 
-##🛠️ Tech Stack
-Python 🐍
-Pandas
-NumPy
-Matplotlib
-Scikit-learn
-
-
-##📁 Project Structure
+## 📁 Project Structure
 student-score-prediction/
 │
 ├── data/
@@ -146,24 +145,20 @@ student-score-prediction/
 ├── notebook/
 ├── app.py
 ├── model.pkl
+├── requirements.txt
 ├── README.md
 
+## 🚀 Future Improvements
+- Try Random Forest / XGBoost
+- Hyperparameter tuning
+- Deploy on Streamlit Cloud
+- Feature importance analysis
+- Build dashboard UI
 
-##🚀 Future Improvements
-Try Random Forest / XGBoost
-Hyperparameter tuning
-Deploy on Streamlit Cloud
-Feature importance analysis
-Build dashboard UI
+## ⭐ Support
+- ⭐ Star the repository
+- 📌 Follow my ML journey
+- 🚀 More projects coming soon
 
-##⭐ Support
-
-If you like this project:
-
-⭐ Star the repository
-📌 Follow my ML journey
-🚀 More projects coming soon
-
-🔥 Next Project
-
+## 🔥 Next Project
 Pass/Fail Classification Model
