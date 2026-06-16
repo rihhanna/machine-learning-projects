@@ -1,5 +1,4 @@
 
-```md id="final-readme-ml-001"```
 # 🎓 Student Score Prediction | End-to-End Machine Learning Project
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
