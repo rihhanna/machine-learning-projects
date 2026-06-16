@@ -139,12 +139,9 @@ Math Score → 78.5
 
 ## 📁 Project Structure
 student-score-prediction/
-│
 ├── data/
 ├── images/
 ├── notebook/
-├── app.py
-├── model.pkl
 ├── requirements.txt
 ├── README.md
 
