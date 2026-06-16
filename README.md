@@ -58,7 +58,7 @@ A Machine Learning project that predicts house prices using Multiple Linear Regr
 house-price-prediction/
 ├── data/
 ├── notebooks/
-├── screenshots/
+├── images/
 ├── README.md
 └── requirements.txt
 ```
