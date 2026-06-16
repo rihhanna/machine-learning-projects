@@ -105,7 +105,7 @@ Prediction (Math Score)
 ## 🚀 Run the Project
 
 ### Install dependencies
-```bash
+
 pip install -r requirements.txt
 Run Streamlit app
 streamlit run app.py
@@ -122,18 +122,23 @@ input_data = [[
 
 # Predicted Output
 Math Score → 78.5
-🔍 Key Insights
+
+##🔍 Key Insights
 Reading score strongly affects math performance
 Writing score is highly correlated with math score
 Test preparation improves results
 Linear Regression is a strong baseline model
-🛠️ Tech Stack
+
+
+##🛠️ Tech Stack
 Python 🐍
 Pandas
 NumPy
 Matplotlib
 Scikit-learn
-📁 Project Structure
+
+
+##📁 Project Structure
 student-score-prediction/
 │
 ├── data/
@@ -142,13 +147,16 @@ student-score-prediction/
 ├── app.py
 ├── model.pkl
 ├── README.md
-🚀 Future Improvements
+
+
+##🚀 Future Improvements
 Try Random Forest / XGBoost
 Hyperparameter tuning
 Deploy on Streamlit Cloud
 Feature importance analysis
 Build dashboard UI
-⭐ Support
+
+##⭐ Support
 
 If you like this project:
 
