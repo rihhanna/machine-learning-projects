@@ -69,7 +69,7 @@ Linear Regression Model
 Prediction (Math Score)
 
 ```
-````
+
 
 ---
 
@@ -101,16 +101,16 @@ Prediction (Math Score)
 ## 📊 Visualizations
 
 ### 📉 Score Distribution
-![Distribution](../images/math_score_distribution.png)
+![Distribution](images/math_score_distribution.png)
 
 ### 📊 Reading vs Math
-![Reading](../images/reading_vs_math.png)
+![Reading](images/reading_vs_math.png)
 
 ### 📊 Writing vs Math
-![Writing](../images/writing_vs_math.png)
+![Writing](images/writing_vs_math.png)
 
 ### 📊 Actual vs Predicted
-![Prediction](../images/actual_vs_predicted.png)
+![Prediction](images/actual_vs_predicted.png)
 
 ---
 
