@@ -2,8 +2,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import joblib
-import os
-
 
 # =========================
 # PAGE CONFIG
@@ -17,8 +15,8 @@ st.set_page_config(
 # =========================
 # LOAD MODEL
 # =========================
-model_path = os.path.join(os.path.dirname(__file__), "model", "pass_fail_model.pkl")
-model = joblib.load(model_path)
+model = joblib.load("model/pass_fail_model.pkl")
+
 # =========================
 # HEADER (PROFESSIONAL STYLE)
 # =========================
@@ -70,7 +68,7 @@ with col2:
     st.subheader("🤖 AI Prediction Panel")
 
     # Load dataset for feature structure
-    df = pd.read_csv("../data/StudentsPerformance.csv")
+    df = pd.read_csv("data/StudentsPerformance.csv")
     df_encoded = pd.get_dummies(df, drop_first=True)
 
     drop_cols = [col for col in ["math score", "pass"] if col in df_encoded.columns]
