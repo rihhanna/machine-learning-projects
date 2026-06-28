@@ -77,10 +77,10 @@ based on their academic features.
 ## 📊 Visualizations
 
 ### 📌 Pass vs Fail Distribution
-![Pass Fail](img/pass_fail_distribution.png)
+![Pass Fail](images/pass_fail_distribution.png)
 
 ### 📌 Confusion Matrix
-![Confusion Matrix](img/confusion_matrix.png)
+![Confusion Matrix](images/confusion_matrix.png)
 
 ---
 
