@@ -70,7 +70,7 @@ with col2:
     st.subheader("🤖 AI Prediction Panel")
 
     # Load dataset for feature structure
-    df = pd.read_csv("data/StudentsPerformance.csv")
+    df = pd.read_csv("../data/StudentsPerformance.csv")
     df_encoded = pd.get_dummies(df, drop_first=True)
 
     drop_cols = [col for col in ["math score", "pass"] if col in df_encoded.columns]
