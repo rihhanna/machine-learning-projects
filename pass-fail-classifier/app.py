@@ -2,6 +2,8 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import joblib
+import os
+
 
 # =========================
 # PAGE CONFIG
@@ -15,8 +17,8 @@ st.set_page_config(
 # =========================
 # LOAD MODEL
 # =========================
-model = joblib.load("model/pass_fail_model.pkl")
-
+model_path = os.path.join(os.path.dirname(__file__), "model", "pass_fail_model.pkl")
+model = joblib.load(model_path)
 # =========================
 # HEADER (PROFESSIONAL STYLE)
 # =========================
