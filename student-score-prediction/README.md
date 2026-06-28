@@ -1,243 +1,78 @@
-Perfect — now you’re ready for a **professional GitHub-level README upgrade** 🚀
-
-I will give you everything in **ONE clean page README.md** with:
-
-✔ GitHub stats card
-✔ Badges
-✔ Model diagram
-✔ Regression vs classification explanation
-✔ Streamlit live demo section
-✔ Try-it-yourself prediction box
-✔ Professional structure (portfolio level)
-
----
-
-# 🚀 FINAL PROFESSIONAL README (COPY THIS)
-
-```md id="final-readme-ml-001"
-# 🎓 Student Score Prediction | End-to-End Machine Learning Project
+# 🎓 Student Score Prediction | Machine Learning Project
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![ML](https://img.shields.io/badge/Machine%20Learning-Regression-green)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Linear%20Regression-orange)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Dataset](https://img.shields.io/badge/Dataset-Real%20World-blueviolet)
-
----
-
-## 👩‍💻 Author
-
-**Rehana Hassan**  
-Software Engineering Student | Machine Learning Portfolio Builder 🚀
-
----
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=rihhanna&show_icons=true&theme=tokyonight)
 
 ---
 
 ## 📌 Project Overview
-
-This project predicts a student's **Math Score** using machine learning based on academic and demographic features.
-
-It is part of my **Machine Learning Journey**, where I build real-world projects step-by-step to strengthen my data science skills.
+This project predicts a student's **Math Score** using machine learning based on academic features such as reading score, writing score, and demographic data.
 
 ---
 
 ## 🎯 Objective
-
-To build a regression model that predicts student performance using:
-
-- Demographic data
-- Study habits
-- Exam preparation
-- Other subject scores
+Build a regression model to predict student performance (numeric score).
 
 ---
 
-## 🧠 Machine Learning Type
-
-### 📌 Regression vs Classification
-
-| Type | Description | Example |
-|------|------------|---------|
-| Regression | Predicts a number | Math Score = 85 |
-| Classification | Predicts a category | Pass / Fail |
-
-👉 This project uses **Regression** because we predict a numeric score.
+## 🏗️ Model Pipeline
+Data Collection → Preprocessing → Train/Test Split → Linear Regression → Prediction
 
 ---
 
-## 🏗️ Model Architecture
-
-```
-
-Input Features
-↓
-Data Preprocessing (Encoding)
-↓
-Train/Test Split
-↓
-Linear Regression Model
-↓
-Prediction (Math Score)
-
-````
-
----
-
-## 📊 Dataset Information
-
-- Source: Kaggle / UCI Repository  
-- Records: 1000+ students  
-- Target: `math score`
-
-### Features:
-
-- Gender
-- Race/Ethnicity
-- Parental Education
-- Lunch
-- Test Preparation Course
-- Reading Score
-- Writing Score
+## 📊 Dataset
+- 1000+ student records  
+- Features: Gender, Parental Education, Lunch, Test Preparation, Reading Score, Writing Score  
+- Target: Math Score  
 
 ---
 
 ## 📈 Model Performance
-
-- **R² Score:** 0.88  
-- **Accuracy (Explained Variance):** 88%
-
----
-
-## 📊 Visualizations
-
-### 📉 Score Distribution
-![Distribution](../images/math_score_distribution.png)
-
-### 📊 Reading vs Math
-![Reading](../images/reading_vs_math.png)
-
-### 📊 Writing vs Math
-![Writing](../images/writing_vs_math.png)
-
-### 📊 Actual vs Predicted
-![Prediction](../images/actual_vs_predicted.png)
+- R² Score: 0.88  
+- Good baseline regression model  
 
 ---
 
-## 🚀 Live Demo (Optional)
-
-You can run this project using Streamlit:
-
-```bash
-streamlit run app.py
-````
-
-👉 App features:
-
-* Input student details
-* Predict math score instantly
-* Simple UI for real-time prediction
+## 🚀 Run the Project
+pip install -r requirements.txt  
+streamlit run app.py  
 
 ---
 
-## 🧪 Try It Yourself
-
-```python id="try1"
-# Example input
+## 🧪 Sample Prediction
 input_data = [[
-    "female",
-    "group B",
-    "bachelor's degree",
-    "standard",
-    "completed",
-    72,
-    74
+"female",
+"group B",
+"bachelor's degree",
+"standard",
+"completed",
+72,
+74
 ]]
 
-# Output
-Predicted Math Score → 78.5
-```
-
----
-
-## 🔍 Key Insights
-
-* Reading score strongly influences math score
-* Writing score is highly correlated
-* Test preparation improves performance
-* Linear Regression is a strong baseline model
+Predicted Math Score → 78.5  
 
 ---
 
 ## 🛠️ Tech Stack
-
-* Python 🐍
-* Pandas
-* NumPy
-* Matplotlib
-* Scikit-learn
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Scikit-learn  
 
 ---
 
 ## 📁 Project Structure
-
-```
 student-score-prediction/
-│
 ├── data/
 ├── images/
 ├── notebook/
-├── model.pkl
-├── app.py
+├── requirements.txt
 ├── README.md
-```
-
----
-
-## 📌 Future Improvements
-
-* Try Random Forest / XGBoost
-* Hyperparameter tuning
-* Deploy on Streamlit Cloud
-* Add feature importance visualization
-* Build web UI dashboard
-
----
-
-## ⭐ Support
-
-If you like this project:
-
-⭐ Star this repo
-📌 Follow my ML journey
-🚀 More projects coming soon
 
 ---
 
 ## 🔥 Next Project
-
-👉 Pass/Fail Classifier (Classification Project)
-
-```
-
----
-
-# 🚀 What you just achieved
-
-Your README now looks like:
-
-✔ Internship-level project  
-✔ Portfolio-ready  
-✔ Recruiter-friendly  
-✔ Clean structure  
-✔ Professional storytelling  
-✔ GitHub stats integration  
-✔ ML explanation included  
-
----
-
+Pass/Fail Classification Model
