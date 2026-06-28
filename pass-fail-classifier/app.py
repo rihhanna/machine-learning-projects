@@ -15,8 +15,10 @@ st.set_page_config(
 # =========================
 # LOAD MODEL
 # =========================
-model = joblib.load("model/pass_fail_model.pkl")
+import os
 
+model_path = os.path.join(os.path.dirname(__file__), "model", "pass_fail_model.pkl")
+model = joblib.load(model_path)
 # =========================
 # HEADER (PROFESSIONAL STYLE)
 # =========================
